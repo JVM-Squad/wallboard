@@ -20,7 +20,7 @@ public class MendController {
     MendService.Login.Response login = mendService.login();
     model.addAttribute("alertSummary", mendService.getOrganizationAlertTypesSummary(login));
     model.addAttribute("librarySummary", mendService.getOrganizationVulnerableLibrarySummary(login));
-    return "mend";
+    return "widgets/mend";
   }
 
 }

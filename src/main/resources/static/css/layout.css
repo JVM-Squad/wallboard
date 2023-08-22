@@ -1,0 +1,18 @@
+body {
+    background-color: #2b2d30;
+    padding-top: 1rem;
+}
+
+.wallboard-widget {
+    border: 2pt solid #1b1d1e;
+    border-radius: 2%;
+    -moz-border-radius: 2%;
+    -webkit-border-radius: 2%;
+    overflow: hidden;
+    position: relative;
+}
+
+iframe {
+    /* get rid of white flash when iframe loads, but need onload="this.style.visibility = 'visible';" */
+    visibility:hidden;
+}

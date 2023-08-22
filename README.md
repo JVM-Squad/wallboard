@@ -24,3 +24,5 @@ Create a local `private-credentials/mend-credentials.json` file containing:
 ```shell
 ./mvnw spring-boot:run
 ```
+
+Open http://localhost:8080/
