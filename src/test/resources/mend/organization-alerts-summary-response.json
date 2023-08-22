@@ -1,0 +1,26 @@
+{
+  "additionalData": {},
+  "retVal": {
+    "policies": {
+      "violations": 8
+    },
+    "libraries": {
+      "newVersions": 367
+    },
+    "securityPerLibrary": {
+      "total": 16,
+      "librariesWithCritical": 0,
+      "librariesWithHigh": 8,
+      "librariesWithMedium": 8,
+      "librariesWithLow": 0
+    },
+    "securityPerVulnerability": {
+      "total": 17,
+      "critical": 0,
+      "high": 8,
+      "medium": 9,
+      "low": 0
+    }
+  },
+  "supportToken": "0184e678ec259a6bcf8d1476eb35b5ee618964d84b4c95"
+}

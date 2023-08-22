@@ -3,12 +3,9 @@ package org.sonar.jvm.squad.wallboard.mend;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.IOException;
-import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
 import org.sonar.jvm.squad.wallboard.client.JsonUtils;
-import org.sonar.jvm.squad.wallboard.client.RestConfig;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -28,7 +25,7 @@ public class MendService {
   public final MendConfig.Credentials credentials;
   public final RestTemplate rest;
 
-  public MendService(MendConfig.Credentials credentials, RestTemplate rest) throws IOException {
+  public MendService(MendConfig.Credentials credentials, RestTemplate rest) {
     this.credentials =credentials;
     this.rest = rest;
   }
@@ -52,19 +49,6 @@ public class MendService {
       new HttpEntity<>(requestData, headers()),
       String.class);
     return responseAs(response, Login.Response.class);
-  }
-
-  public String getOrganizationProducts(Login.Response login) {
-    ResponseEntity<String> response = rest.exchange(
-      credentials.apiBaseUrlV2() + "/api/v2.0/orgs/{orgToken}/products",
-      HttpMethod.GET,
-      new HttpEntity<>(headers(login.retVal.jwtToken)),
-      String.class,
-      Map.of("orgToken", login.retVal.orgUuid));
-    if (response.getStatusCode().is2xxSuccessful()) {
-      return JsonUtils.prettyPrint(response.getBody());
-    }
-    return "";
   }
 
   interface AlertTypesSummary {
@@ -134,15 +118,6 @@ public class MendService {
       headers.setBearerAuth(bearerToken);
     }
     return headers;
-  }
-
-  public static void main(String[] args) throws IOException {
-    MendConfig.Credentials credentials = MAPPER.readValue(Path.of("private-credentials", "mend-credentials.json").toFile(), MendConfig.Credentials.class);
-    RestConfig restConfig = new RestConfig();
-    MendService mendService = new MendService(credentials, restConfig.rest());
-    Login.Response login = mendService.login();
-    System.out.println(mendService.getOrganizationAlertTypesSummary(login));
-    System.out.println(mendService.getOrganizationVulnerableLibrarySummary(login));
   }
 
 }

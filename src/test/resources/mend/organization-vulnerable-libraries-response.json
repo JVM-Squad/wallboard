@@ -1,0 +1,33 @@
+{
+  "additionalData": {
+    "totalItems": 4,
+    "isLastPage": true
+  },
+  "retVal": [
+    {
+      "uuid": "d4b2167b-3132-476d-d6eb-581a97bf3525",
+      "projectName": "SonarSource/sonar-scanner-gradle 4.2.1",
+      "productName": "SonarSource/sonar-scanner-gradle",
+      "vulnerableLibraries": 1
+    },
+    {
+      "uuid": "3d3c7652-d236-4710-690e-f9924189c1e",
+      "projectName": "SonarSource/sonar-scanner-gradle 4.3.0",
+      "productName": "SonarSource/sonar-scanner-gradle",
+      "vulnerableLibraries": 1
+    },
+    {
+      "uuid": "10044cb7-f1d2-38bd-c708-d5d1595121ce",
+      "projectName": "SonarSource/sonar-scanner-gradle 4.4.0",
+      "productName": "SonarSource/sonar-scanner-gradle",
+      "vulnerableLibraries": 1
+    },
+    {
+      "uuid": "3dc9be35-4d48-7feb-5a28-28fa12680118",
+      "projectName": "SonarSource/sonar-kotlin 2.18.0",
+      "productName": "SonarSource/sonar-kotlin",
+      "vulnerableLibraries": 7
+    }
+  ],
+  "supportToken": "0184e678ec259a6bcf8d1476eb35b5ee618964d84b4c95"
+}
