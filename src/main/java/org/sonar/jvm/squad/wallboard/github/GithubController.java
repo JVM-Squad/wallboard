@@ -22,6 +22,6 @@ public class GithubController {
   }
 
   private static List<String> githubRepos(){
-    return List.of("sonar-java", "sonar-kotlin", "sonar-xml", "sonar-jacoco", "sonar-scanner-maven", "sonar-scanner-gradle");
+    return List.of("sonar-java", "slang-enterprise", "sonar-kotlin", "sonar-xml", "sonar-jacoco", "sonar-scanner-maven", "sonar-scanner-gradle");
   }
 }
