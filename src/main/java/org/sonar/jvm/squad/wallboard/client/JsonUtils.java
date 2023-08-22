@@ -13,4 +13,12 @@ public class JsonUtils {
     }
   }
 
+  public static String removeIndentation(String badlyFormattedJson) {
+    try {
+      return new ObjectMapper().readTree(badlyFormattedJson).toString();
+    } catch (JsonProcessingException e) {
+      return badlyFormattedJson;
+    }
+  }
+
 }

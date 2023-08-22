@@ -2,6 +2,7 @@ package org.sonar.jvm.squad.wallboard.mend;
 
 import java.io.IOException;
 import org.junit.jupiter.api.Test;
+import org.sonar.jvm.squad.wallboard.client.JsonUtils;
 import org.sonar.jvm.squad.wallboard.client.RestConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,6 +15,7 @@ import org.springframework.test.web.client.MockRestServiceServer;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.header;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
@@ -52,6 +54,13 @@ class MendServiceTest {
     server.expect(requestTo("https://fake-api.mend.com/api/v2.0/login"))
       .andExpect(method(HttpMethod.POST))
       .andExpect(header("Content-Type", "application/json"))
+      .andExpect(content().string(JsonUtils.removeIndentation("""
+        {
+          "email":"paul.smith@sonarsource.com",
+          "orgToken":"2c255cad1bea5744ce44aac20b29dae3c6e6801a206cb726ebb41",
+          "userKey":"94d8168f091b7e2dd7ba7827d3f70e644925facb2169b3bcd5f4a"
+        }
+        """)))
       .andRespond(withSuccess(fromClasspath("mend/login-response.json"), MediaType.APPLICATION_JSON));
 
     MendService.Login.Response login = mendService.login();
