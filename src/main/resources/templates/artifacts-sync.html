@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Artifacts sync</title>
+</head>
+
+<body>
+<div class="analyzers">
+    <div class="analyzer">
+        <h2 th:text="${analyzerName}" class="analyzer"></h2>
+        <ul class="analyzer-versions">
+            <li th:each="artifact: ${artifacts}">
+                <a th:href="${artifact.url()}" target="_blank">
+                    <span th:text="${artifact.buildType()}"></span>: <span th:text="${artifact.version()}"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
