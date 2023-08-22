@@ -1,0 +1,18 @@
+{
+  "additionalData": {},
+  "retVal": {
+    "correlationId": "c7d92ecf61a098d78a09ac9b17a8bf6a2",
+    "userUuid":      "ce8d72ae-d662-9ac9-6ce4-ec6716407960",
+    "userName":      "paul.smith",
+    "email":         "paul.smith@sonarsource.com",
+    "refreshToken":  "xs385EzMiA3N6VSWzWG.s4uaSis3Hm6DUpPS7xYdGBJkWwVz9K4pB8sKF78aSQ7mp8HjqvuV4ZmqqgaF59SGRgLckHfySxvCYPFQHm",
+    "jwtToken":      "JniBeE28mGiQVhrkRvY6z.PhoJXWsWtVhEAjMsrTfSZFzR4TfcpVteLiJpMhXome9XxzjidWehPRh79pQfVuwg88dSyL8E3S6RbT5LDi",
+    "orgName":       "SonarSource",
+    "orgUuid":       "92ce3e6e-9057-693d-3239-13093a539784",
+    "domainName":    "SonarSource",
+    "domainUuid":    "92ce3e6e-9057-693d-3239-13093a539784",
+    "jwtTTL":        1800000,
+    "sessionStartTime": 1692696821547
+  },
+  "supportToken": "0184e678ec259a6bcf8d1476eb35b5ee618964d84b4c95"
+}
