@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import org.sonar.jvm.squad.wallboard.client.JsonUtils;
 import org.sonar.jvm.squad.wallboard.client.RestConfig;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -19,6 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
+@Lazy
 public class MendService {
 
   private static final ObjectMapper MAPPER = new ObjectMapper();

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 
 @Configuration
 public class MendConfig {
@@ -17,6 +18,7 @@ public class MendConfig {
   }
 
   @Bean
+  @Lazy
   public Credentials credentials() throws IOException {
     Path path = Path.of("private-credentials", "mend-credentials.json");
     return new ObjectMapper().readValue(path.toFile(), Credentials.class);
