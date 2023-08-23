@@ -18,7 +18,7 @@ public class WallboardApplication {
   @GetMapping({"/"})
   public String index(Model model) {
     model.addAttribute("widgetRowsAndColsUrls", List.of(
-      List.of("/mend", "/todo"),
+      List.of("/todo", "/github"),
       List.of("/todo", "/todo")
     ));
     return "index";

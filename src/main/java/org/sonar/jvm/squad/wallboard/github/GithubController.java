@@ -18,7 +18,7 @@ public class GithubController {
   public String mend(Model model) {
     List<GithubService.Release> releases = githubRepos().stream().map(githubService::getRelease).toList();
     model.addAttribute("sonarJavaReleases", releases);
-    return "github";
+    return "widgets/github";
   }
 
   private static List<String> githubRepos(){
