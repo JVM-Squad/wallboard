@@ -20,6 +20,13 @@ Create a local `private-credentials/mend-credentials.json` file containing:
 }
 ```
 
+Create a local `private-credentials/github-credentials.json` file containing:
+```json
+{
+  "githubToken": "b249e1f563b9c3e91f6... "
+}
+```
+
 ### Web server
 ```shell
 ./mvnw spring-boot:run
