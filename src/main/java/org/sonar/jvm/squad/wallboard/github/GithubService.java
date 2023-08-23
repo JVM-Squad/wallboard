@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class GithubService {
 
-  private final RestTemplate rest;
+  public final RestTemplate rest;
   private final GithubConfig.Credentials credentials;
 
   public GithubService(GithubConfig.Credentials credentials, RestTemplate rest){
