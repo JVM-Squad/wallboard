@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Wallboard - Github</title>
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/5.3.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/widget.css}"/>
+</head>
+<body data-bs-theme="dark">
+
+<nav class="navbar fixed-top justify-content-center">
+    <a class="navbar-brand" href="#">Github</a>
+</nav>
+
+<main class="container after-fixed-top-navbar mt-4" role="main">
+
+    <h4>Releases</h4>
+
+    <div th:each="release : ${sonarJavaReleases}">
+        <strong th:text="${release.repoName}"></strong>  release number:<span th:text="${release.name}"></span> &nbsp &nbsp release date: <span th:text="${release.published_at}"></span>
+    </div>
+
+</main>
+
+<script th:src="@{webjars/bootstrap/5.3.1/js/bootstrap.min.js}" type="text/javascript"></script>
+</body>
+</html>
