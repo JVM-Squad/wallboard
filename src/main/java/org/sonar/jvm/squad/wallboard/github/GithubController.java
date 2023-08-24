@@ -15,16 +15,19 @@ public class GithubController {
     this.githubService = githubService;
   }
 
+  private record Repo(String displayName, String name){}
+
   @GetMapping("/github")
   public String mend(Model model) {
-    List<GithubService.ReleaseSummary.Release> releases = githubRepos().stream().map(githubService::getRelease).toList();
+    List<GithubService.ReleaseSummary.Release> releases = githubRepos().stream().map(repo -> githubService.getRelease(repo.displayName,repo.name )).toList();
     model.addAttribute("formatter", DateTimeFormatter.ofPattern("d-MMM-yyyy"));
     model.addAttribute("sonarJavaReleases", releases);
     return "widgets/github";
   }
 
-  private static List<String> githubRepos(){
-    return List.of("sonar-java", "slang-enterprise", "sonar-kotlin", "sonar-xml", "sonar-jacoco", "sonar-scanner-maven", "sonar-scanner-gradle");
+  private static List<Repo> githubRepos() {
+    return List.of(new Repo("java", "sonar-java"), new Repo("go,ruby,scala,apex","slang-enterprise"), new Repo("kotlin", "sonar-kotlin"), new Repo("xml", "sonar-xml"),
+      new Repo("jacoco", "sonar-jacoco"), new Repo("maven", "sonar-scanner-maven"), new Repo("gradle", "sonar-scanner-gradle"));
   }
 
 }

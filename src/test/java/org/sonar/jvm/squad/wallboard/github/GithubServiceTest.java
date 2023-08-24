@@ -60,11 +60,12 @@ public class GithubServiceTest {
       .andExpect(header("Authorization", "Bearer " + "2c255cad1bea5744ce44aac20b29dae3c6e6801a206cb726ebb4"))
       .andRespond(withSuccess(data, MediaType.APPLICATION_JSON));
 
-    GithubService.ReleaseSummary.Release release = githubService.getRelease(repo);
+    GithubService.ReleaseSummary.Release release = githubService.getRelease("java", repo);
 
     server.verify();
     assertThat(release).isNotNull();
     assertThat(release.repoName()).isEqualTo(repo);
+    assertThat(release.displayName()).isEqualTo("java");
     assertThat(release.releaseNumber()).isEqualTo(releaseNumber);
     assertThat(release.date()).hasToString(releaseDate);
   }

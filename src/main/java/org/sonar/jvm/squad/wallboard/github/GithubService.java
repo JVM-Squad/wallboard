@@ -23,11 +23,11 @@ public class GithubService {
   interface ReleaseSummary {
     record Response(String name, String published_at) {
     }
-    record Release(String repoName, String releaseNumber, ZonedDateTime date) {
+    record Release(String repoName, String displayName, String releaseNumber, ZonedDateTime date) {
     }
   }
 
-  public ReleaseSummary.Release getRelease(String repo) {
+  public ReleaseSummary.Release getRelease(String displayName, String repo) {
     ResponseEntity<String> response = rest.exchange(
       "https://api.github.com/repos/sonarsource/" + repo + "/releases/latest",
       HttpMethod.GET,
@@ -38,6 +38,7 @@ public class GithubService {
 
     return new ReleaseSummary.Release(
       repo,
+      displayName,
       release.name,
       ZonedDateTime.parse(release.published_at));
   }

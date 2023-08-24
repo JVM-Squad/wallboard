@@ -17,9 +17,22 @@
 
     <h4>Releases</h4>
 
-    <div th:each="release : ${sonarJavaReleases}">
-        <strong th:text="${release.repoName}"></strong>  release number:<span th:text="${release.releaseNumber}"></span> &nbsp &nbsp release date: <span th:text="${release.date().format(formatter)}"></span>
-    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Plugin</th>
+            <th scope="col">Date</th>
+            <th scope="col">Version</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="release : ${sonarJavaReleases}">
+            <td th:text="${release.displayName}"></td>
+            <td th:text="${release.date().format(formatter)}"></td>
+            <td th:text="${release.releaseNumber}"></td>
+        </tr>
+        </tbody>
+    </table>
 
 </main>
 
