@@ -10,8 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 public class ArtifactsController {
   ArtifactsService service;
 
-  ArtifactsController(ArtifactsService service) {
+  NextService nextService;
+
+  ArtifactsController(ArtifactsService service, NextService nextService) {
     this.service = service;
+    this.nextService = nextService;
   }
 
   @GetMapping("/artifacts-sync/{name}")
@@ -19,6 +22,8 @@ public class ArtifactsController {
     List<Artifact> artifacts = service.findByName(name);
     model.addAttribute("analyzerName", name);
     model.addAttribute("artifacts", artifacts);
+    String installedOnNext = nextService.getInstalledVersion(name);
+    model.addAttribute("installedOnNext", installedOnNext);
     return "artifacts-sync";
   }
 }
