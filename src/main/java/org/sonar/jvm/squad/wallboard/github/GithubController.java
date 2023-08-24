@@ -1,5 +1,6 @@
 package org.sonar.jvm.squad.wallboard.github;
 
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,6 +18,7 @@ public class GithubController {
   @GetMapping("/github")
   public String mend(Model model) {
     List<GithubService.ReleaseSummary.Release> releases = githubRepos().stream().map(githubService::getRelease).toList();
+    model.addAttribute("formatter", DateTimeFormatter.ofPattern("d-MMM-yyyy"));
     model.addAttribute("sonarJavaReleases", releases);
     return "widgets/github";
   }
