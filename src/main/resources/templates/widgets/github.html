@@ -18,7 +18,7 @@
     <h4>Releases</h4>
 
     <div th:each="release : ${sonarJavaReleases}">
-        <strong th:text="${release.repoName}"></strong>  release number:<span th:text="${release.name}"></span> &nbsp &nbsp release date: <span th:text="${release.published_at}"></span>
+        <strong th:text="${release.repoName}"></strong>  release number:<span th:text="${release.releaseNumber}"></span> &nbsp &nbsp release date: <span th:text="${release.date().toString()}"></span>
     </div>
 
 </main>

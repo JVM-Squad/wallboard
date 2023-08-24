@@ -16,7 +16,7 @@ public class GithubController {
 
   @GetMapping("/github")
   public String mend(Model model) {
-    List<GithubService.Release> releases = githubRepos().stream().map(githubService::getRelease).toList();
+    List<GithubService.ReleaseSummary.Release> releases = githubRepos().stream().map(githubService::getRelease).toList();
     model.addAttribute("sonarJavaReleases", releases);
     return "widgets/github";
   }
@@ -24,4 +24,5 @@ public class GithubController {
   private static List<String> githubRepos(){
     return List.of("sonar-java", "slang-enterprise", "sonar-kotlin", "sonar-xml", "sonar-jacoco", "sonar-scanner-maven", "sonar-scanner-gradle");
   }
+
 }

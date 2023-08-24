@@ -48,25 +48,24 @@ public class GithubServiceTest {
   @Test
   public void test_release() throws Exception {
     String repo = "sonar-java";
-    String releaseNumber = "10.2";
-    String releaseDate = "2023-01-13";
+    String releaseNumber = "7.24.0.32100";
+    String releaseDate = "2023-08-18T16:33:14Z";
 
     String data =
-      objectMapper.writeValueAsString(new GithubService.Release("", releaseNumber, releaseDate));
+      objectMapper.writeValueAsString(new GithubService.ReleaseSummary.Response(releaseNumber, releaseDate));
 
     server
       .expect(requestTo("https://api.github.com/repos/sonarsource/sonar-java/releases/latest"))
       .andExpect(method(HttpMethod.GET))
       .andExpect(header("Authorization", "Bearer " + "2c255cad1bea5744ce44aac20b29dae3c6e6801a206cb726ebb4"))
-      .andExpect(header("Content-Type", "application/json"))
       .andRespond(withSuccess(data, MediaType.APPLICATION_JSON));
 
-    GithubService.Release release = githubService.getRelease(repo);
+    GithubService.ReleaseSummary.Release release = githubService.getRelease(repo);
 
     server.verify();
     assertThat(release).isNotNull();
     assertThat(release.repoName()).isEqualTo(repo);
-    assertThat(release.name()).isEqualTo(releaseNumber);
-    assertThat(release.published_at()).isEqualTo(releaseDate);
+    assertThat(release.releaseNumber()).isEqualTo(releaseNumber);
+    assertThat(release.date()).hasToString(releaseDate);
   }
 }
