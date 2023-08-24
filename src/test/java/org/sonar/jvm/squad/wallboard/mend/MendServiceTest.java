@@ -4,24 +4,20 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.junit.jupiter.api.Test;
-import org.sonar.jvm.squad.wallboard.client.JsonUtils;
 import org.sonar.jvm.squad.wallboard.client.RestConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ResourceLoader;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.MediaType;
 import org.springframework.test.web.client.MockRestServiceServer;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.springframework.test.web.client.match.MockRestRequestMatchers.content;
+import static org.sonar.jvm.squad.wallboard.TestUtils.expectGET;
+import static org.sonar.jvm.squad.wallboard.TestUtils.expectPOST;
+import static org.sonar.jvm.squad.wallboard.TestUtils.jsonResponse;
+import static org.sonar.jvm.squad.wallboard.client.JsonUtils.removeIndentation;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.header;
-import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
-import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
-import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 
 @SpringBootTest(classes = {MendServiceTest.TestMendConfig.class, RestConfig.class, MendService.class})
 class MendServiceTest {
@@ -51,28 +47,23 @@ class MendServiceTest {
   MendService mendService;
 
   @Autowired
-  ResourceLoader resourceLoader;
+  ResourceLoader loader;
 
   @Test
   void test_login() throws IOException {
-    assertThat(mendService).isNotNull();
-
     MendConfig.Credentials credentials = mendService.credentials;
     assertThat(credentials).isNotNull();
     assertThat(credentials.userEmail()).isEqualTo("paul.smith@sonarsource.com");
 
     MockRestServiceServer server = MockRestServiceServer.bindTo(mendService.rest).build();
-    server.expect(requestTo("https://fake-api.mend.com/api/v2.0/login"))
-      .andExpect(method(HttpMethod.POST))
-      .andExpect(header("Content-Type", "application/json"))
-      .andExpect(content().string(JsonUtils.removeIndentation("""
+    expectPOST(server, "https://fake-api.mend.com/api/v2.0/login", removeIndentation("""
         {
           "email":"paul.smith@sonarsource.com",
           "orgToken":"2c255cad1bea5744ce44aac20b29dae3c6e6801a206cb726ebb41",
           "userKey":"94d8168f091b7e2dd7ba7827d3f70e644925facb2169b3bcd5f4a"
         }
-        """)))
-      .andRespond(withSuccess(fromClasspath("mend/login-response.json"), MediaType.APPLICATION_JSON));
+        """))
+      .andRespond(jsonResponse(loader, "mend/login-response.json"));
 
     MendService.Login.Response login = mendService.login();
 
@@ -90,12 +81,9 @@ class MendServiceTest {
     String jwtToken = TEST_LOGIN.retVal().jwtToken();
 
     MockRestServiceServer server = MockRestServiceServer.bindTo(mendService.rest).build();
-    server.expect(requestTo("https://fake-api.mend.com/api/v2.0/orgs/" + orgToken + "/summary/alertTypes"))
-      .andExpect(method(HttpMethod.GET))
-      .andExpect(header("Content-Type", "application/json"))
+    expectGET(server, "https://fake-api.mend.com/api/v2.0/orgs/" + orgToken + "/summary/alertTypes")
       .andExpect(header("Authorization", "Bearer " + jwtToken))
-      .andExpect(content().string(""))
-      .andRespond(withSuccess(fromClasspath("mend/organization-alerts-summary-response.json"), MediaType.APPLICATION_JSON));
+      .andRespond(jsonResponse(loader, "mend/organization-alerts-summary-response.json"));
 
     MendService.AlertTypesSummary.Response summary = mendService.getOrganizationAlertTypesSummary(TEST_LOGIN);
 
@@ -113,12 +101,9 @@ class MendServiceTest {
     String jwtToken = TEST_LOGIN.retVal().jwtToken();
 
     MockRestServiceServer server = MockRestServiceServer.bindTo(mendService.rest).build();
-    server.expect(requestTo("https://fake-api.mend.com/api/v2.0/orgs/" + orgToken + "/summary/projects/vulnerableLibraryCount?pageSize=10000&search=productName:regex:.*"))
-      .andExpect(method(HttpMethod.GET))
-      .andExpect(header("Content-Type", "application/json"))
+    expectGET(server, "https://fake-api.mend.com/api/v2.0/orgs/" + orgToken + "/summary/projects/vulnerableLibraryCount?pageSize=10000&search=productName:regex:.*")
       .andExpect(header("Authorization", "Bearer " + jwtToken))
-      .andExpect(content().string(""))
-      .andRespond(withSuccess(fromClasspath("mend/organization-vulnerable-libraries-response.json"), MediaType.APPLICATION_JSON));
+      .andRespond(jsonResponse(loader, "mend/organization-vulnerable-libraries-response.json"));
 
     MendService.LibrarySummary.Response summary = mendService.getOrganizationVulnerableLibrarySummary(TEST_LOGIN);
 
@@ -134,10 +119,6 @@ class MendServiceTest {
       SonarSource/sonar-scanner-gradle | SonarSource/sonar-scanner-gradle 4.3.0 | 1
       SonarSource/sonar-scanner-gradle | SonarSource/sonar-scanner-gradle 4.4.0 | 1
       SonarSource/sonar-kotlin | SonarSource/sonar-kotlin 2.18.0 | 7""");
-  }
-
-  String fromClasspath(String path) throws IOException {
-    return resourceLoader.getResource("classpath:" + path).getContentAsString(UTF_8);
   }
 
 }

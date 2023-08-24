@@ -19,7 +19,7 @@ public class WallboardApplication {
   public String index(Model model) {
     model.addAttribute("widgetRowsAndColsUrls", List.of(
       List.of("/mend", "/todo"),
-      List.of("/todo", "/todo")
+      List.of("/sonarcloud", "/todo")
     ));
     return "index";
   }

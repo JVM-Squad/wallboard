@@ -17,14 +17,17 @@
 
     <h4>Policies Violations</h4>
     <p>
-        <strong th:text="${alertSummary.retVal.policies.violations}"></strong> Violations
+        <a href="https://saas-eu.whitesourcesoftware.com/Wss/WSS.html#!home" target="_blank"><strong th:text="${alertSummary.retVal.policies.violations}"></strong></a>
+        Violations
     </p>
-
-    <h4>Vulnerable Projects</h4>
-    <div th:each="retVal : ${librarySummary.retVal}">
-        <strong th:text="${retVal.vulnerableLibraries}"></strong> vulnerable libraries in
-        <span th:text="${retVal.projectName}"></span>
-    </div>
+    <th:block th:if="${!librarySummary.retVal.isEmpty}">
+        <h4>Vulnerable Projects</h4>
+        <ul>
+            <li th:each="retVal : ${librarySummary.retVal}">
+                <strong th:text="${retVal.vulnerableLibraries}"></strong> <span th:text="${retVal.shortProjectName}"></span>
+            </li>
+        </ul>
+    </th:block>
 
 </main>
 

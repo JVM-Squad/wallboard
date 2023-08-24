@@ -5,3 +5,11 @@
 .after-fixed-top-navbar {
     padding-top: 3rem;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
