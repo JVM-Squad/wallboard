@@ -1,8 +1,10 @@
 package org.sonar.jvm.squad.wallboard.github;
 
 import java.time.ZonedDateTime;
+import java.util.concurrent.CompletableFuture;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -25,6 +27,11 @@ public class GithubService {
     }
     record Release(String repoName, String displayName, String releaseNumber, ZonedDateTime date) {
     }
+  }
+
+  @Async
+  public CompletableFuture<ReleaseSummary.Release> getReleaseAsync(String displayName, String repo) {
+    return CompletableFuture.completedFuture(getRelease(displayName, repo));
   }
 
   public ReleaseSummary.Release getRelease(String displayName, String repo) {

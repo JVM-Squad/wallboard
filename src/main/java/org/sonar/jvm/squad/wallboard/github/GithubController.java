@@ -2,6 +2,7 @@ package org.sonar.jvm.squad.wallboard.github;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,10 +19,16 @@ public class GithubController {
   private record Repo(String displayName, String name){}
 
   @GetMapping("/github")
-  public String mend(Model model) {
-    List<GithubService.ReleaseSummary.Release> releases = githubRepos().stream().map(repo -> githubService.getRelease(repo.displayName,repo.name )).toList();
+  public String mend(Model model)  {
+      var releases = githubRepos()
+      .stream()
+      .map(repo ->  githubService.getReleaseAsync(repo.displayName, repo.name))
+      .toList();
+
+
+
     model.addAttribute("formatter", DateTimeFormatter.ofPattern("d-MMM-yyyy"));
-    model.addAttribute("sonarJavaReleases", releases);
+    model.addAttribute("sonarJavaReleases", releases.stream().map(CompletableFuture::join).toList());
     return "widgets/github";
   }
 
