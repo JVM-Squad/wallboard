@@ -2,10 +2,13 @@ package org.sonar.jvm.squad.wallboard.artifacts;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
+@Lazy
 public class ArtifactsService {
   RestTemplate restTemplate;
 

@@ -1,12 +1,15 @@
 package org.sonar.jvm.squad.wallboard.artifacts;
 
 import java.util.List;
+
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
+@Lazy
 public class ArtifactsController {
   ArtifactsService service;
 

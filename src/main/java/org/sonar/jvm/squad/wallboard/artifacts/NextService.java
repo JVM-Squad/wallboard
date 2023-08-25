@@ -2,6 +2,8 @@ package org.sonar.jvm.squad.wallboard.artifacts;
 
 import java.util.List;
 import java.util.Map;
+
+import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -10,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
+@Lazy
 public class NextService {
   public static final String HOST = "https://next.sonarqube.com/sonarqube";
   public static final String PLUGINS_INSTALLED_ENDPOINT = HOST + "/api/plugins/installed";
