@@ -13,3 +13,69 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.repository {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.repository-name {
+    color: #ffffff;
+}
+
+.completed {
+    color: #28a745;
+}
+
+.failed {
+    color: #dc3545;
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.task-details {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 15px;
+    border-left: 2px solid #dc3545;
+    margin-top: 10px;
+}
+
+.task-name {
+    font-weight: bold;
+}
+
+.task-status {
+    color: #dc3545;
+}
+
+<!--
+
+/*.completed {
+    background-color: #006766;
+}
+
+.failed {
+    background-color: #800000;
+}
+
+.task-details {
+    display: flex;
+    align-items: center;
+}
+
+.task-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.task-status {
+    color: #002424;
+}
+*/

@@ -14,29 +14,38 @@
 </nav>
 
 <main class="container after-fixed-top-navbar mt-4" role="main">
+    <div class="repository">
+        <div th:each="response: ${data}">
+            <div th:if="${response.data().ownerRepository()} != null">
+                <h2 class="repository-name" th:text="${response.data().ownerRepository().name()}">Repository Name</h2>
+                <ul class="build-list">
+                    <div th:each="build : ${response.data().ownerRepository().builds().edges()}"
+                         th:class="${build.node().status() == 'COMPLETED' ? 'completed' : 'failed'}">
+                        <div class="build-details">
+                            <p class="build-branch"><b>Branch:</b> <span th:text="${build.node().branch()}"></span></p>
+                            <p class="build-title"><b>Title:</b> <span th:text="${build.node().changeMessageTitle()}"></span></p>
+                            <p class="build-status"><b>Status:</b> <span th:text="${build.node().status()}"></span></p>
 
-    <tr th:each="response: ${data}">
-        <div th:if="${response.data().ownerRepository()} != null">
-            <td th:text="${response.data().ownerRepository().name()}"></td>
-            <ul>
-                <div th:each="build : ${response.data().ownerRepository().builds().edges()}">
-                    Branch name:
-                    <td th:text="${build.node().branch()}"></td>
-                    <br>
-                    Change message title:
-                    <td th:text="${build.node().changeMessageTitle()}"></td>
-                    <br>
-                    Status:
-                    <td th:text="${build.node().status()}"></td>
-                    <br>
-                    Duration:
-                    <td th:text="${build.node().durationInSeconds()}"></td>
-                    <br>
-                </div>
-            </ul>
+                            <div th:if="${build.node().status() == 'ERRORED'}" class="error-message">
+                                <p><b>Error message:</b> <span th:text="${build.node().notifications().get(0).message()}"></span></p>
+                            </div>
+
+                            <ul th:if="${build.node().status() == 'FAILED'}" th:each="task: ${build.node().tasks()}"
+                                class="task-details">
+                                <li>
+                                    <p class="task-name" th:text="${task.name()}"></p>
+                                    <p class="task-status" th:text="${task.status()}"></p>
+                                </li>
+                            </ul>
+
+                            <p class="build-duration"><b>Duration:</b> <span th:text="${build.node().duration()}"></span></p>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <hr>
         </div>
-        <hr>
-    </tr>
+    </div>
 </main>
 
 <script th:src="@{webjars/bootstrap/5.3.1/js/bootstrap.min.js}" type="text/javascript"></script>

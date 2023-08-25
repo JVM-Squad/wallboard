@@ -27,7 +27,12 @@ Create a local `private-credentials/github-credentials.json` file containing:
 }
 ```
 
-To use cirrus API, add `CIRRUS_COOKIE` as environment variable.
+Create a local `private-credentials/cirrus-credentials.json` file containing:
+```json
+{
+  "cirrusCookie": "asdasdas_sdaa... "
+}
+```
 Cirrus cookie can be found in the network tab when loading https://cirrus-ci.com/ as a logged user.
 
 ### Web server

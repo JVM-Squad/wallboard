@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.sonar.jvm.squad.wallboard.client.JsonUtils;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
@@ -16,119 +16,88 @@ import static org.sonar.jvm.squad.wallboard.client.JsonUtils.responseAs;
 import static org.sonar.jvm.squad.wallboard.client.RestUtils.entityWithProperties;
 
 @Service
+@Lazy
 public class CirrusService {
 
   private static final String API_URL = "https://api.cirrus-ci.com/graphql";
 
   public final RestTemplate rest;
 
-  public CirrusService(RestTemplate rest) {
+  private final CirrusConfig.Credentials credentials;
+
+  public CirrusService(RestTemplate rest, CirrusConfig.Credentials credentials) {
     this.rest = rest;
+    this.credentials = credentials;
   }
 
   public List<Response> getCirrusData(Set<String> projectNames) {
     String data = """
       {
-      "query": "query OwnerRepositoryQuery($platform: String!, $owner: String!, $name: String!, $branch: String) {
-        ownerRepository(platform: $platform, owner: $owner, name: $name) {
-          ...RepositoryBuildList_repository
-          id
-        }
-      }
-
-      fragment RepositoryBuildList_repository on Repository {
-        id
-        owner
-        name
-        builds(last: 1, branch: $branch) {
-          edges {
-            node {
-              id
-              changeMessageTitle
-              durationInSeconds
-              status
-              ...BuildBranchNameChip_build
-              ...BuildChangeChip_build
-              ...BuildStatusChip_build
-            }
-          }
-        }
-      }
-
-      fragment BuildBranchNameChip_build on Build {
-        id
-        branch
-        repository {
-          owner
-          name
-          id
-        }
-      }
-
-      fragment BuildChangeChip_build on Build {
-        id
-        changeIdInRepo
-      }
-
-      fragment BuildStatusChip_build on Build {
-        id
-        status
-        durationInSeconds
-      }",
+      "query": "query q($platform: String!, $owner: String!, $name: String!, $branch: String) {
+                  ownerRepository(platform: $platform, owner: $owner, name: $name) {
+                    id
+                    owner
+                    name
+                    builds(last: 1, branch: $branch) {
+                      edges {
+                        node {
+                          id
+                          changeMessageTitle
+                          durationInSeconds
+                          status
+                          branch
+                          ...ErroredBuildStatus
+                          ...FailedBuildStatus
+                        }
+                      }
+                    }
+                  }
+                }
+                fragment ErroredBuildStatus on Build {
+                        notifications {
+                          message
+                          level
+                        }
+                }
+                fragment FailedBuildStatus on Build {
+                        tasks {
+                          name
+                          status
+                          notifications {
+                            message
+                            level
+                          }
+                        }
+                }
+                ",
       "variables": {
          "platform": "github",
          "owner": "SonarSource",
          "name": "%s",
          "branch": "master" }
       }
+      }
       """;
-
     List<Response> responseData = new ArrayList<>();
     projectNames.forEach(name -> {
-      ResponseEntity<String> response = getResponse(name, data);
+      ResponseEntity<String> response = getResponse(data, name);
       responseData.add(responseAs(response, Response.class));
     });
 
     return responseData;
   }
 
-  public String getLastDefaultBranchBuild(String id) {
-    String data = """
-      {
-      "query": "query q($id: ID!) { repository(id: $id) { lastDefaultBranchBuild { tasks { name status } } } }",
-      "variables": {"id": %s }
-      }
-      """;
-
-    ResponseEntity<String> response = getResponse(id, data);
-
-    return JsonUtils.prettyPrint(response.getBody());
-  }
-
-  public String getBuild(String id) {
-    String data = """
-      {
-      "query": "query q($id: ID!) { build(id: $id) { id branch status tasks { name status } } }",
-      "variables": { "id": %s }
-      }
-      """;
-
-    ResponseEntity<String> response = getResponse(id, data);
-
-    return JsonUtils.prettyPrint(response.getBody());
-  }
-
-  private ResponseEntity<String> getResponse(String id, String data) {
+  private ResponseEntity<String> getResponse(String data, String... params) {
     return rest.exchange(
       API_URL,
       HttpMethod.POST,
-      getCirrusEntity(String.format(data, id)),
+      getCirrusEntity(String.format(data, params)),
       String.class);
   }
 
   private <T> HttpEntity<T> getCirrusEntity(T body) {
     String cirrusToken = System.getenv("CIRRUS_CI_API_TOKEN");
-    String cirrusCookie = System.getenv("CIRRUS_COOKIE");
+    String cirrusCookie = credentials.cirrusCookie();
     if (cirrusToken != null && !cirrusToken.isEmpty()) {
       return entityWithProperties(body, Map.of("Authorization", "Bearer " + cirrusToken));
     } else if (cirrusCookie != null && !cirrusCookie.isEmpty()) {

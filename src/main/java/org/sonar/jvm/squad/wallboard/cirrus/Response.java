@@ -26,14 +26,31 @@ public record Response(Data data) {
     int durationInSeconds,
     String status,
     String branch,
-    Repository repository,
-    String changeIdInRepo) {
+    List<Notification> notifications,
+    List<Task> tasks) {
+
+    public String duration() {
+      int hours = durationInSeconds / 3600;
+      int minutes = (durationInSeconds % 3600) / 60;
+      int remainingSeconds = durationInSeconds % 60;
+
+      String formattedTime = "";
+      if (hours > 0) {
+        formattedTime += hours + " hours, ";
+      }
+      if (minutes > 0 || hours > 0) {
+        formattedTime += minutes + " minutes, ";
+      }
+      formattedTime += remainingSeconds + " seconds";
+
+      return formattedTime;
+    }
   }
 
-  public record Repository(
-    String owner,
-    String name,
-    String id) {
+  public record Notification(String message, String level) {
+  }
+
+  public record Task(String name, String status) {
   }
 
 }
