@@ -9,3 +9,6 @@ spring:
       static-locations: file:src/main/resources/static/
       cache:
         period: 0
+
+squad.useful.links: https://xtranet-sonarsource.atlassian.net/wiki/spaces/LANG/pages/2476507207/Recurring+Meetings+-+JVM+Squad#Daily-(15-20min):-standups|JVM Squad Daily Procedure,
+  https://sonarsource.atlassian.net/jira/software/c/projects/SONARJAVA/boards/363|Jira Board
