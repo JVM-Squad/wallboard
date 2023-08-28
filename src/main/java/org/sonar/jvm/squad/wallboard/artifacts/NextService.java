@@ -44,7 +44,11 @@ public class NextService {
       requestEntity,
       Map.class
     );
-    List<Object> plugins = (List<Object>) response.getBody().get("plugins");
+    Map<String, Object> body = response.getBody();
+    if (body == null) {
+      return "N/A";
+    }
+    List<Object> plugins = (List<Object>) body.get("plugins");
     return plugins.stream()
       .map(plugin -> (Map<String, String>) plugin)
       .filter(plugin -> pluginKey.equals(plugin.get("key")))
