@@ -19,7 +19,7 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
 
 
 @SpringBootTest(classes = {GithubServiceTest.TestGithubConfig.class, GithubService.class, RestConfig.class, ObjectMapper.class})
-public class GithubServiceTest {
+class GithubServiceTest {
 
   @Configuration
   static class TestGithubConfig {
@@ -46,7 +46,7 @@ public class GithubServiceTest {
   private ObjectMapper objectMapper;
 
   @Test
-  public void test_release() throws Exception {
+  void test_release() throws Exception {
     String repo = "sonar-java";
     String releaseNumber = "7.24.0.32100";
     String releaseDate = "2023-08-18T16:33:14Z";
