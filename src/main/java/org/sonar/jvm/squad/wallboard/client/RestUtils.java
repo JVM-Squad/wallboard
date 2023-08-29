@@ -26,6 +26,13 @@ public final class RestUtils {
     return new HttpEntity<>(headers);
   }
 
+  public static HttpEntity<Void> headersForGET(Map<String, String> properties) {
+    HttpHeaders headers = new HttpHeaders();
+    headers.setAccept(List.of(MediaType.APPLICATION_JSON));
+    headers.setAll(properties);
+    return new HttpEntity<>(headers);
+  }
+
   public static <T> HttpEntity<T> entityForPOST(T body) {
     HttpHeaders headers = new HttpHeaders();
     headers.setContentType(MediaType.APPLICATION_JSON);
