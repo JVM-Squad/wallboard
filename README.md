@@ -20,6 +20,13 @@ Create a local `private-credentials/mend-credentials.json` file containing:
 }
 ```
 
+Create a local `private-credentials/community-credentials.json` file containing:
+```json
+{
+  "discourseToken": "b249e1f563b9c3e91f6... from community / cookie / _t"
+}
+```
+
 Create a local `private-credentials/github-credentials.json` file containing:
 ```json
 {
@@ -41,3 +48,5 @@ Cirrus cookie can be found in the network tab when loading https://cirrus-ci.com
 ```
 
 Open http://localhost:8080/
+
+

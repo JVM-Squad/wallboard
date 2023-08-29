@@ -25,7 +25,7 @@ public class WallboardApplication {
     model.addAttribute("widgetRowsAndColsUrls", List.of(
       List.of("/mend", "/github"),
       List.of("/sonarcloud", "/cirrus"),
-      List.of("/usefulLinks", "/todo")
+      List.of("/usefulLinks", "/community")
     ));
     return "index";
   }
