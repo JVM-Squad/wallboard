@@ -19,7 +19,7 @@ public class GithubController {
   private record Repo(String displayName, String name){}
 
   @GetMapping("/github")
-  public String mend(Model model)  {
+  public String releases(Model model)  {
       var releases = githubRepos()
       .stream()
       .map(repo ->  githubService.getReleaseAsync(repo.displayName, repo.name))
