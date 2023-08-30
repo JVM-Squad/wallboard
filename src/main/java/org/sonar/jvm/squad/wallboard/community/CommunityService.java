@@ -13,7 +13,7 @@ import static org.sonar.jvm.squad.wallboard.client.RestUtils.headersForGET;
 
 @Service
 public class CommunityService {
-  private final RestTemplate rest;
+  public final RestTemplate rest;
   private final CommunityConfig.Credentials credentials;
 
   public CommunityService(CommunityConfig.Credentials credentials, RestTemplate rest){

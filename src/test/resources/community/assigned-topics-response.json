@@ -1,0 +1,2490 @@
+{
+  "users": [
+    {
+      "id": 37655,
+      "username": "Rguihard",
+      "name": "GUIHARD Rémy",
+      "avatar_template": "/user_avatar/community.sonarsource.com/rguihard/{size}/48682_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Rguihard/activity/assigned"
+    },
+    {
+      "id": 74,
+      "username": "Colin",
+      "name": "Colin",
+      "avatar_template": "/user_avatar/community.sonarsource.com/colin/{size}/9647_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "sonarsourcers",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/e/5/e5b370602e296e05535c754359061ada6740bfb4.png",
+      "flair_group_id": 41,
+      "admin": true,
+      "moderator": true,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Colin/activity/assigned"
+    },
+    {
+      "id": 20457,
+      "username": "juanpablo-santos",
+      "name": "Juan Pablo Santos Rodríguez",
+      "avatar_template": "/user_avatar/community.sonarsource.com/juanpablo-santos/{size}/25007_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/juanpablo-santos/activity/assigned"
+    },
+    {
+      "id": 34277,
+      "username": "angelo.buono",
+      "name": "Angelo Buono",
+      "avatar_template": "/user_avatar/community.sonarsource.com/angelo.buono/{size}/44736_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "sonarsourcers",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/e/5/e5b370602e296e05535c754359061ada6740bfb4.png",
+      "flair_group_id": 41,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/angelo.buono/activity/assigned"
+    },
+    {
+      "id": 13883,
+      "username": "mfroehlich",
+      "name": "Marvin Fröhlich",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/m/a8b319/{size}.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/mfroehlich/activity/assigned"
+    },
+    {
+      "id": 37606,
+      "username": "brokenpipe.coder",
+      "name": "Broken Pipe",
+      "avatar_template": "/user_avatar/community.sonarsource.com/brokenpipe.coder/{size}/48615_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/brokenpipe.coder/activity/assigned"
+    },
+    {
+      "id": 37259,
+      "username": "Rafael_Machado",
+      "name": "Rafael Machado",
+      "avatar_template": "/user_avatar/community.sonarsource.com/rafael_machado/{size}/48174_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Rafael_Machado/activity/assigned"
+    },
+    {
+      "id": 10184,
+      "username": "jbeleites",
+      "name": "Johann Beleites",
+      "avatar_template": "/user_avatar/community.sonarsource.com/jbeleites/{size}/11750_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "JVM_Squad",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/a/3/a3de3a04788aa966bf318e3e77b9a5bb1f1e233a.png",
+      "flair_group_id": 45,
+      "moderator": true,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/jbeleites/activity/assigned"
+    },
+    {
+      "id": 37602,
+      "username": "protoshadowmaker",
+      "name": "Yauhen",
+      "avatar_template": "/user_avatar/community.sonarsource.com/protoshadowmaker/{size}/48611_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/protoshadowmaker/activity/assigned"
+    },
+    {
+      "id": 37400,
+      "username": "DashwoodIce9",
+      "name": "Prakhar Agarwal",
+      "avatar_template": "/user_avatar/community.sonarsource.com/dashwoodice9/{size}/48332_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/DashwoodIce9/activity/assigned"
+    },
+    {
+      "id": 31,
+      "username": "ganncamp",
+      "name": "G  Ann Campbell",
+      "avatar_template": "/user_avatar/community.sonarsource.com/ganncamp/{size}/1261_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "sonarsourcers",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/e/5/e5b370602e296e05535c754359061ada6740bfb4.png",
+      "flair_group_id": 41,
+      "admin": true,
+      "moderator": true,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/ganncamp/activity/assigned"
+    },
+    {
+      "id": 36,
+      "username": "Michael",
+      "name": "Michael Gumowski",
+      "avatar_template": "/user_avatar/community.sonarsource.com/michael/{size}/43_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "JVM_Squad",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/a/3/a3de3a04788aa966bf318e3e77b9a5bb1f1e233a.png",
+      "flair_group_id": 45,
+      "moderator": true,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Michael/activity/assigned"
+    },
+    {
+      "id": 6323,
+      "username": "Irineu_Ruiz",
+      "name": "Irineu Ruiz",
+      "avatar_template": "/user_avatar/community.sonarsource.com/irineu_ruiz/{size}/6410_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Irineu_Ruiz/activity/assigned"
+    },
+    {
+      "id": 16690,
+      "username": "G00fY2",
+      "name": "Thomas Wirth",
+      "avatar_template": "/user_avatar/community.sonarsource.com/g00fy2/{size}/19724_2.png",
+      "trust_level": 2,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/G00fY2/activity/assigned"
+    },
+    {
+      "id": 36897,
+      "username": "pvasilev94",
+      "name": "Pavel Vasilev",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/p/e8c25b/{size}.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/pvasilev94/activity/assigned"
+    },
+    {
+      "id": 36995,
+      "username": "angom",
+      "name": "Angom",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/a/49beb7/{size}.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/angom/activity/assigned"
+    },
+    {
+      "id": 30331,
+      "username": "irina.batinic",
+      "name": "Irina Batinic",
+      "avatar_template": "/user_avatar/community.sonarsource.com/irina.batinic/{size}/38681_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "sonarsourcers",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/e/5/e5b370602e296e05535c754359061ada6740bfb4.png",
+      "flair_group_id": 41,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/irina.batinic/activity/assigned"
+    },
+    {
+      "id": 37308,
+      "username": "Matt_Byrne",
+      "name": "Matt Byrne",
+      "avatar_template": "/user_avatar/community.sonarsource.com/matt_byrne/{size}/48220_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Matt_Byrne/activity/assigned"
+    },
+    {
+      "id": 37355,
+      "username": "staycaffeinated",
+      "name": "Staycaffeinated",
+      "avatar_template": "/user_avatar/community.sonarsource.com/staycaffeinated/{size}/48277_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/staycaffeinated/activity/assigned"
+    },
+    {
+      "id": 22531,
+      "username": "JavierSC",
+      "name": "Javi",
+      "avatar_template": "/user_avatar/community.sonarsource.com/javiersc/{size}/27487_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/JavierSC/activity/assigned"
+    },
+    {
+      "id": 36439,
+      "username": "nhu_duc",
+      "name": "Duc",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/n/df705f/{size}.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/nhu_duc/activity/assigned"
+    },
+    {
+      "id": 29964,
+      "username": "lbenedetto",
+      "name": "Lars Benedetto",
+      "avatar_template": "/user_avatar/community.sonarsource.com/lbenedetto/{size}/38080_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/lbenedetto/activity/assigned"
+    },
+    {
+      "id": 34291,
+      "username": "cssprs",
+      "name": "CSSPRS",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/c/51bf81/{size}.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/cssprs/activity/assigned"
+    },
+    {
+      "id": 36444,
+      "username": "kat-sharp-ice",
+      "name": "Kat Sharp Ice",
+      "avatar_template": "/user_avatar/community.sonarsource.com/kat-sharp-ice/{size}/47020_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/kat-sharp-ice/activity/assigned"
+    },
+    {
+      "id": 23399,
+      "username": "Lusheez",
+      "name": "David Fagneray",
+      "avatar_template": "/user_avatar/community.sonarsource.com/lusheez/{size}/28704_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Lusheez/activity/assigned"
+    },
+    {
+      "id": 61,
+      "username": "Rebse",
+      "name": "Gilbert Rebhan",
+      "avatar_template": "/user_avatar/community.sonarsource.com/rebse/{size}/1486_2.png",
+      "trust_level": 3,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Rebse/activity/assigned"
+    },
+    {
+      "id": 32512,
+      "username": "Iwo_Polanski",
+      "name": "Iwo Polański",
+      "avatar_template": "/user_avatar/community.sonarsource.com/iwo_polanski/{size}/41547_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Iwo_Polanski/activity/assigned"
+    },
+    {
+      "id": 30365,
+      "username": "Leonardo_Pilastri",
+      "name": "Leonardo Pilastri",
+      "avatar_template": "/user_avatar/community.sonarsource.com/leonardo_pilastri/{size}/38853_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "sonarsourcers",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/e/5/e5b370602e296e05535c754359061ada6740bfb4.png",
+      "flair_group_id": 41,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Leonardo_Pilastri/activity/assigned"
+    },
+    {
+      "id": 8084,
+      "username": "lrozenblyum",
+      "name": "Lrozenblyum",
+      "avatar_template": "/user_avatar/community.sonarsource.com/lrozenblyum/{size}/11922_2.png",
+      "trust_level": 2,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/lrozenblyum/activity/assigned"
+    },
+    {
+      "id": 29250,
+      "username": "anemonetea",
+      "name": "Anastasiya Lazarenko",
+      "avatar_template": "/user_avatar/community.sonarsource.com/anemonetea/{size}/37023_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/anemonetea/activity/assigned"
+    },
+    {
+      "id": 27744,
+      "username": "daniel11",
+      "name": "Daniel",
+      "avatar_template": "/user_avatar/community.sonarsource.com/daniel11/{size}/31971_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/daniel11/activity/assigned"
+    },
+    {
+      "id": 31036,
+      "username": "BansalGaurav",
+      "name": "Gaurav Bansal",
+      "avatar_template": "/user_avatar/community.sonarsource.com/bansalgaurav/{size}/29998_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/BansalGaurav/activity/assigned"
+    },
+    {
+      "id": 15048,
+      "username": "Dorian_Burihabwa",
+      "name": "Dorian Burihabwa",
+      "avatar_template": "/user_avatar/community.sonarsource.com/dorian_burihabwa/{size}/18750_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "JVM_Squad",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/a/3/a3de3a04788aa966bf318e3e77b9a5bb1f1e233a.png",
+      "flair_group_id": 45,
+      "moderator": true,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Dorian_Burihabwa/activity/assigned"
+    },
+    {
+      "id": 33029,
+      "username": "sify21",
+      "name": "Sify21",
+      "avatar_template": "/user_avatar/community.sonarsource.com/sify21/{size}/42270_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/sify21/activity/assigned"
+    },
+    {
+      "id": 32899,
+      "username": "skysZhang",
+      "name": "bill",
+      "avatar_template": "/user_avatar/community.sonarsource.com/skyszhang/{size}/42084_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/skysZhang/activity/assigned"
+    },
+    {
+      "id": 31025,
+      "username": "rodrigorodriguescost",
+      "name": "Rodrigo Rodrigues",
+      "avatar_template": "/user_avatar/community.sonarsource.com/rodrigorodriguescost/{size}/39753_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/rodrigorodriguescost/activity/assigned"
+    },
+    {
+      "id": 29976,
+      "username": "Schuits",
+      "name": "Robert Schuitemaker",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/s/5f9b8f/{size}.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Schuits/activity/assigned"
+    },
+    {
+      "id": 24750,
+      "username": "shafemoh",
+      "name": "Shafeequr Rehman",
+      "avatar_template": "/user_avatar/community.sonarsource.com/shafemoh/{size}/30564_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/shafemoh/activity/assigned"
+    },
+    {
+      "id": 25451,
+      "username": "Benjamin_Bauduin",
+      "name": "Benjamin Bauduin",
+      "avatar_template": "/user_avatar/community.sonarsource.com/benjamin_bauduin/{size}/31627_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Benjamin_Bauduin/activity/assigned"
+    },
+    {
+      "id": 30049,
+      "username": "Wenyan_Ji",
+      "name": "Wenyan Ji",
+      "avatar_template": "/user_avatar/community.sonarsource.com/wenyan_ji/{size}/33079_2.png",
+      "trust_level": 0,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Wenyan_Ji/activity/assigned"
+    },
+    {
+      "id": 14883,
+      "username": "zjqzfyc",
+      "name": "Yongcheng",
+      "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/z/46a35a/{size}.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/zjqzfyc/activity/assigned"
+    },
+    {
+      "id": 1362,
+      "username": "Quentin",
+      "name": "Quentin Jaquier",
+      "avatar_template": "/user_avatar/community.sonarsource.com/quentin/{size}/1976_2.png",
+      "primary_group_name": "sonarsourcers",
+      "flair_name": "sonarsourcers",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/e/5/e5b370602e296e05535c754359061ada6740bfb4.png",
+      "flair_group_id": 41,
+      "moderator": true,
+      "trust_level": 4,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Quentin/activity/assigned"
+    },
+    {
+      "id": 27261,
+      "username": "Tuk",
+      "name": "Debraj Manna",
+      "avatar_template": "/user_avatar/community.sonarsource.com/tuk/{size}/34156_2.png",
+      "trust_level": 1,
+      "assign_icon": "user-plus",
+      "assign_path": "/u/Tuk/activity/assigned"
+    }
+  ],
+  "primary_groups": [
+    {
+      "id": 41,
+      "name": "sonarsourcers"
+    }
+  ],
+  "flair_groups": [
+    {
+      "id": 41,
+      "name": "sonarsourcers",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/e/5/e5b370602e296e05535c754359061ada6740bfb4.png",
+      "flair_bg_color": "",
+      "flair_color": ""
+    },
+    {
+      "id": 45,
+      "name": "JVM_Squad",
+      "flair_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/a/3/a3de3a04788aa966bf318e3e77b9a5bb1f1e233a.png",
+      "flair_bg_color": "",
+      "flair_color": ""
+    }
+  ],
+  "topic_list": {
+    "can_create_topic": true,
+    "more_topics_url": "/topics/group-topics-assigned/JVM_Squad?ascending=false&order=&page=1&search=",
+    "per_page": 30,
+    "top_tags": [
+      "sonarqube",
+      "scanner",
+      "sonarcloud",
+      "java",
+      "coverage",
+      "sonarlint",
+      "cfamily",
+      "dotnet",
+      "bug-no-category",
+      "csharp",
+      "intellij",
+      "azuredevops-services",
+      "javascript",
+      "typescript",
+      "security",
+      "eclipse",
+      "jenkins",
+      "github",
+      "pull-request",
+      "python",
+      "visualstudio",
+      "docker",
+      "bitbucket",
+      "web_api",
+      "vscode",
+      "gitlab",
+      "sonarqube-team",
+      "gradle",
+      "azuredevops-server",
+      "maven",
+      "msbuild",
+      "rules",
+      "php",
+      "ssl",
+      "authentication",
+      "sales_team_notified",
+      "github-actions",
+      "bitbucketcloud",
+      "azuredevops",
+      "kotlin",
+      "autoscan",
+      "saml",
+      "branches",
+      "swift",
+      "jacoco",
+      "azure",
+      "build-wrapper",
+      "plugin",
+      "custom_rules",
+      "upgrade",
+      "false-positive",
+      "kubernetes",
+      "ldap",
+      "android",
+      "database",
+      "8-9-lts-upgrade",
+      "security-hotspot",
+      "documentation",
+      "quality-gate",
+      "scanner-guild",
+      "css",
+      "plsql",
+      "tests",
+      "new_code",
+      "quality-profiles",
+      "performance",
+      "go",
+      "issues",
+      "tsql",
+      "helm",
+      "bug",
+      "postgres",
+      "exclusions",
+      "elasticsearch",
+      "html",
+      "pull-request-decorat",
+      "xml",
+      "cobol",
+      "migration",
+      "administration",
+      "license",
+      "cpp",
+      "connected_mode",
+      "custom_plugin",
+      "duplications",
+      "monorepo",
+      "permissions",
+      "azure-devops",
+      "github-checks",
+      "tfs",
+      "vbnet",
+      "sso",
+      "node",
+      "webhooks",
+      "mssql",
+      "unit-test",
+      "billing",
+      "git",
+      "configuration",
+      "failed-analysis",
+      "metrics"
+    ],
+    "topics": [
+      {
+        "id": 98236,
+        "title": "org.apache.commons.collections.MapUtils is Not Rcognize By Sonar Scanning",
+        "fancy_title": "org.apache.commons.collections.MapUtils is Not Rcognize By Sonar Scanning",
+        "slug": "org-apache-commons-collections-maputils-is-not-rcognize-by-sonar-scanning",
+        "posts_count": 3,
+        "reply_count": 0,
+        "highest_post_number": 4,
+        "image_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/optimized/3X/9/1/91f0b4d5b3f4a0fa933aaded21c76565e1399abd_2_1024x430.png",
+        "created_at": "2023-08-29T08:10:09.010Z",
+        "last_posted_at": "2023-08-30T06:52:48.588Z",
+        "bumped": true,
+        "bumped_at": "2023-08-30T06:52:48.588Z",
+        "archetype": "regular",
+        "unseen": true,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "java",
+          "false-positive"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 28,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "Rguihard",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_group": {
+          "id": 45,
+          "name": "JVM_Squad",
+          "assign_icon": "group-plus",
+          "assign_path": "/g/JVM_Squad/assigned/everyone"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 37655,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 96210,
+        "title": "Custom java rule not persisting issue (getting InMemorySensorStorage instead of DefaultSensorStorage",
+        "fancy_title": "Custom java rule not persisting issue (getting InMemorySensorStorage instead of DefaultSensorStorage",
+        "slug": "custom-java-rule-not-persisting-issue-getting-inmemorysensorstorage-instead-of-defaultsensorstorage",
+        "posts_count": 9,
+        "reply_count": 5,
+        "highest_post_number": 11,
+        "image_url": null,
+        "created_at": "2023-07-24T09:28:47.840Z",
+        "last_posted_at": "2023-08-29T13:54:56.616Z",
+        "bumped": true,
+        "bumped_at": "2023-08-29T13:54:56.616Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "java",
+          "custom_rules"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 119,
+        "like_count": 6,
+        "has_summary": false,
+        "last_poster_username": "angelo.buono",
+        "category_id": 15,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 34277,
+          "username": "angelo.buono",
+          "name": "Angelo Buono",
+          "avatar_template": "/user_avatar/community.sonarsource.com/angelo.buono/{size}/44736_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/angelo.buono/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 20457,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 34277,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 98270,
+        "title": "[java S5413] FP when outer loop is ascending",
+        "fancy_title": "[java S5413] FP when outer loop is ascending",
+        "slug": "java-s5413-fp-when-outer-loop-is-ascending",
+        "posts_count": 2,
+        "reply_count": 0,
+        "highest_post_number": 3,
+        "image_url": null,
+        "created_at": "2023-08-29T12:33:17.266Z",
+        "last_posted_at": "2023-08-29T12:38:02.023Z",
+        "bumped": true,
+        "bumped_at": "2023-08-29T12:38:02.023Z",
+        "archetype": "regular",
+        "unseen": true,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarqube",
+          "java",
+          "sonarlint"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 19,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "mfroehlich",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_group": {
+          "id": 45,
+          "name": "JVM_Squad",
+          "assign_icon": "group-plus",
+          "assign_path": "/g/JVM_Squad/assigned/everyone"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest single",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 13883,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 98115,
+        "title": "@Nullable field dereferencing, without any check, show no warnings",
+        "fancy_title": "@Nullable field dereferencing, without any check, show no warnings",
+        "slug": "nullable-field-dereferencing-without-any-check-show-no-warnings",
+        "posts_count": 3,
+        "reply_count": 0,
+        "highest_post_number": 6,
+        "image_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/original/3X/d/3/d3c7a50dfd1b62b74230437c94158f5f40c2999e.png",
+        "created_at": "2023-08-26T06:08:27.337Z",
+        "last_posted_at": "2023-08-28T15:28:42.575Z",
+        "bumped": true,
+        "bumped_at": "2023-08-28T15:28:42.575Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "java"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 44,
+        "like_count": 2,
+        "has_summary": false,
+        "last_poster_username": "brokenpipe.coder",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 36,
+          "username": "Michael",
+          "name": "Michael Gumowski",
+          "avatar_template": "/user_avatar/community.sonarsource.com/michael/{size}/43_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Michael/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 37606,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 98028,
+        "title": "Java Symbolic Execution",
+        "fancy_title": "Java Symbolic Execution",
+        "slug": "java-symbolic-execution",
+        "posts_count": 2,
+        "reply_count": 0,
+        "highest_post_number": 5,
+        "image_url": null,
+        "created_at": "2023-08-24T21:09:39.335Z",
+        "last_posted_at": "2023-08-28T12:45:45.615Z",
+        "bumped": true,
+        "bumped_at": "2023-08-28T12:45:45.615Z",
+        "archetype": "regular",
+        "unseen": false,
+        "last_read_post_number": 4,
+        "unread": 0,
+        "new_posts": 0,
+        "unread_posts": 0,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "notification_level": 1,
+        "bookmarked": false,
+        "liked": false,
+        "tags": [
+          "java"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 49,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "jbeleites",
+        "category_id": 18,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 10184,
+          "username": "jbeleites",
+          "name": "Johann Beleites",
+          "avatar_template": "/user_avatar/community.sonarsource.com/jbeleites/{size}/11750_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/jbeleites/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 37259,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 10184,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          }
+        ]
+      },
+      {
+        "id": 98106,
+        "title": "[ERROR] When update sourceCompatibility and targetCompatibility to JavaVersion.VERSION_11",
+        "fancy_title": "[ERROR] When update sourceCompatibility and targetCompatibility to JavaVersion.VERSION_11",
+        "slug": "error-when-update-sourcecompatibility-and-targetcompatibility-to-javaversion-version-11",
+        "posts_count": 2,
+        "reply_count": 0,
+        "highest_post_number": 3,
+        "image_url": null,
+        "created_at": "2023-08-25T23:03:33.545Z",
+        "last_posted_at": "2023-08-28T07:22:39.540Z",
+        "bumped": true,
+        "bumped_at": "2023-08-28T07:22:39.540Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarcloud",
+          "gradle",
+          "android"
+        ],
+        "tags_descriptions": {},
+        "views": 37,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "protoshadowmaker",
+        "category_id": 9,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_group": {
+          "id": 45,
+          "name": "JVM_Squad",
+          "assign_icon": "group-plus",
+          "assign_path": "/g/JVM_Squad/assigned/everyone"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest single",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 37602,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 97611,
+        "title": "Incorrect detection of @Deprecated methods",
+        "fancy_title": "Incorrect detection of @Deprecated methods",
+        "slug": "incorrect-detection-of-deprecated-methods",
+        "posts_count": 5,
+        "reply_count": 2,
+        "highest_post_number": 7,
+        "image_url": null,
+        "created_at": "2023-08-17T10:36:03.874Z",
+        "last_posted_at": "2023-08-25T14:14:03.669Z",
+        "bumped": true,
+        "bumped_at": "2023-08-25T14:14:03.669Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "scanner",
+          "java",
+          "sonarlint",
+          "vscode"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 59,
+        "like_count": 2,
+        "has_summary": false,
+        "last_poster_username": "Michael",
+        "category_id": 36,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 36,
+          "username": "Michael",
+          "name": "Michael Gumowski",
+          "avatar_template": "/user_avatar/community.sonarsource.com/michael/{size}/43_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Michael/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 37400,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 31,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 36,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          }
+        ]
+      },
+      {
+        "id": 97795,
+        "title": "java:S6204 Suggestion of using .toList() in a List that is from the interface does not compile",
+        "fancy_title": "java:S6204 Suggestion of using .toList() in a List that is from the interface does not compile",
+        "slug": "java-s6204-suggestion-of-using-tolist-in-a-list-that-is-from-the-interface-does-not-compile",
+        "posts_count": 2,
+        "reply_count": 0,
+        "highest_post_number": 4,
+        "image_url": null,
+        "created_at": "2023-08-21T16:00:44.419Z",
+        "last_posted_at": "2023-08-25T08:54:29.308Z",
+        "bumped": true,
+        "bumped_at": "2023-08-25T08:54:29.308Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarcloud"
+        ],
+        "tags_descriptions": {},
+        "views": 37,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "angelo.buono",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 34277,
+          "username": "angelo.buono",
+          "name": "Angelo Buono",
+          "avatar_template": "/user_avatar/community.sonarsource.com/angelo.buono/{size}/44736_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/angelo.buono/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 6323,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 34277,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 97132,
+        "title": "Kotlin S6314 false-positive for nested map operator",
+        "fancy_title": "Kotlin S6314 false-positive for nested map operator",
+        "slug": "kotlin-s6314-false-positive-for-nested-map-operator",
+        "posts_count": 4,
+        "reply_count": 1,
+        "highest_post_number": 6,
+        "image_url": null,
+        "created_at": "2023-08-08T14:39:27.937Z",
+        "last_posted_at": "2023-08-24T09:56:16.766Z",
+        "bumped": true,
+        "bumped_at": "2023-08-24T09:56:16.766Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [],
+        "tags_descriptions": {},
+        "views": 63,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "jbeleites",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 10184,
+          "username": "jbeleites",
+          "name": "Johann Beleites",
+          "avatar_template": "/user_avatar/community.sonarsource.com/jbeleites/{size}/11750_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/jbeleites/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 16690,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 10184,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          }
+        ]
+      },
+      {
+        "id": 96461,
+        "title": "Code Coverage showing",
+        "fancy_title": "Code Coverage showing",
+        "slug": "code-coverage-showing",
+        "posts_count": 14,
+        "reply_count": 10,
+        "highest_post_number": 16,
+        "image_url": null,
+        "created_at": "2023-07-27T15:23:13.981Z",
+        "last_posted_at": "2023-08-22T11:07:30.725Z",
+        "bumped": true,
+        "bumped_at": "2023-08-22T11:07:30.725Z",
+        "archetype": "regular",
+        "unseen": false,
+        "last_read_post_number": 15,
+        "unread": 0,
+        "new_posts": 0,
+        "unread_posts": 0,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "notification_level": 1,
+        "bookmarked": false,
+        "liked": false,
+        "tags": [
+          "java",
+          "coverage",
+          "maven",
+          "jacoco"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 191,
+        "like_count": 1,
+        "has_summary": false,
+        "last_poster_username": "Matt_Byrne",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30331,
+          "username": "irina.batinic",
+          "name": "Irina Batinic",
+          "avatar_template": "/user_avatar/community.sonarsource.com/irina.batinic/{size}/38681_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/irina.batinic/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 36897,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 36995,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 31,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 30331,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 37308,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 97509,
+        "title": "How does one report a bug in the sonarqube gradle plugin?",
+        "fancy_title": "How does one report a bug in the sonarqube gradle plugin?",
+        "slug": "how-does-one-report-a-bug-in-the-sonarqube-gradle-plugin",
+        "posts_count": 3,
+        "reply_count": 1,
+        "highest_post_number": 5,
+        "image_url": null,
+        "created_at": "2023-08-15T21:02:54.257Z",
+        "last_posted_at": "2023-08-18T18:57:11.000Z",
+        "bumped": true,
+        "bumped_at": "2023-08-18T18:57:11.000Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "scanner",
+          "gradle"
+        ],
+        "tags_descriptions": {},
+        "views": 67,
+        "like_count": 1,
+        "has_summary": false,
+        "last_poster_username": "staycaffeinated",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30331,
+          "username": "irina.batinic",
+          "name": "Irina Batinic",
+          "avatar_template": "/user_avatar/community.sonarsource.com/irina.batinic/{size}/38681_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/irina.batinic/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 37355,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 30331,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 91185,
+        "title": "Gradle and lazy configurations",
+        "fancy_title": "Gradle and lazy configurations",
+        "slug": "gradle-and-lazy-configurations",
+        "posts_count": 7,
+        "reply_count": 3,
+        "highest_post_number": 10,
+        "image_url": null,
+        "created_at": "2023-05-19T13:49:44.507Z",
+        "last_posted_at": "2023-08-17T16:00:31.313Z",
+        "bumped": true,
+        "bumped_at": "2023-08-17T16:00:31.313Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarqube",
+          "gradle"
+        ],
+        "tags_descriptions": {},
+        "views": 155,
+        "like_count": 1,
+        "has_summary": false,
+        "last_poster_username": "JavierSC",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30331,
+          "username": "irina.batinic",
+          "name": "Irina Batinic",
+          "avatar_template": "/user_avatar/community.sonarsource.com/irina.batinic/{size}/38681_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/irina.batinic/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 22531,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 30331,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 97332,
+        "title": "Custom Plugin with Java Checks is not started by SonarQube Server",
+        "fancy_title": "Custom Plugin with Java Checks is not started by SonarQube Server",
+        "slug": "custom-plugin-with-java-checks-is-not-started-by-sonarqube-server",
+        "posts_count": 2,
+        "reply_count": 0,
+        "highest_post_number": 4,
+        "image_url": null,
+        "created_at": "2023-08-11T10:10:00.704Z",
+        "last_posted_at": "2023-08-15T09:24:31.361Z",
+        "bumped": true,
+        "bumped_at": "2023-08-15T09:24:31.361Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarqube",
+          "java"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 51,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "irina.batinic",
+        "category_id": 15,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30331,
+          "username": "irina.batinic",
+          "name": "Irina Batinic",
+          "avatar_template": "/user_avatar/community.sonarsource.com/irina.batinic/{size}/38681_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/irina.batinic/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 36439,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 30331,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 97135,
+        "title": "Java S2201 The return value of \"orElseThrow\" must be used",
+        "fancy_title": "Java S2201 The return value of &ldquo;orElseThrow&rdquo; must be used",
+        "slug": "java-s2201-the-return-value-of-orelsethrow-must-be-used",
+        "posts_count": 3,
+        "reply_count": 0,
+        "highest_post_number": 7,
+        "image_url": null,
+        "created_at": "2023-08-08T15:21:38.263Z",
+        "last_posted_at": "2023-08-11T17:19:08.699Z",
+        "bumped": true,
+        "bumped_at": "2023-08-11T17:26:56.225Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "java",
+          "sonarlint"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 75,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "lbenedetto",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 36,
+          "username": "Michael",
+          "name": "Michael Gumowski",
+          "avatar_template": "/user_avatar/community.sonarsource.com/michael/{size}/43_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Michael/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 29964,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 36,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          }
+        ]
+      },
+      {
+        "id": 89005,
+        "title": "'\"Preconditions\" and logging arguments should not require evaluation' - no good solution",
+        "fancy_title": "&lsquo;&ldquo;Preconditions&rdquo; and logging arguments should not require evaluation&rsquo; - no good solution",
+        "slug": "preconditions-and-logging-arguments-should-not-require-evaluation-no-good-solution",
+        "posts_count": 7,
+        "reply_count": 2,
+        "highest_post_number": 10,
+        "image_url": null,
+        "created_at": "2023-04-11T21:24:51.111Z",
+        "last_posted_at": "2023-08-04T13:20:50.117Z",
+        "bumped": true,
+        "bumped_at": "2023-08-04T13:20:50.117Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [],
+        "tags_descriptions": {},
+        "views": 314,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "irina.batinic",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30331,
+          "username": "irina.batinic",
+          "name": "Irina Batinic",
+          "avatar_template": "/user_avatar/community.sonarsource.com/irina.batinic/{size}/38681_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/irina.batinic/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 34291,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 30331,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 95581,
+        "title": "Strange code coverage result switching from jacoco to scoverage",
+        "fancy_title": "Strange code coverage result switching from jacoco to scoverage",
+        "slug": "strange-code-coverage-result-switching-from-jacoco-to-scoverage",
+        "posts_count": 14,
+        "reply_count": 9,
+        "highest_post_number": 16,
+        "image_url": null,
+        "created_at": "2023-07-12T16:10:16.536Z",
+        "last_posted_at": "2023-08-03T14:37:24.313Z",
+        "bumped": true,
+        "bumped_at": "2023-08-03T15:11:20.176Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "coverage",
+          "maven",
+          "scala"
+        ],
+        "tags_descriptions": {},
+        "views": 170,
+        "like_count": 2,
+        "has_summary": false,
+        "last_poster_username": "irina.batinic",
+        "category_id": 9,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30331,
+          "username": "irina.batinic",
+          "name": "Irina Batinic",
+          "avatar_template": "/user_avatar/community.sonarsource.com/irina.batinic/{size}/38681_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/irina.batinic/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 36444,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 30331,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 85256,
+        "title": "Either log or rethrow this exception code smell (but it's already logged)",
+        "fancy_title": "Either log or rethrow this exception code smell (but it&rsquo;s already logged)",
+        "slug": "either-log-or-rethrow-this-exception-code-smell-but-its-already-logged",
+        "posts_count": 6,
+        "reply_count": 2,
+        "highest_post_number": 10,
+        "image_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/optimized/3X/7/8/7878fc792abcc278988f50b9ba49cdb0c1863e75_2_1024x154.png",
+        "created_at": "2023-03-06T13:53:27.662Z",
+        "last_posted_at": "2023-07-17T09:20:15.063Z",
+        "bumped": true,
+        "bumped_at": "2023-07-17T09:20:15.063Z",
+        "archetype": "regular",
+        "unseen": false,
+        "last_read_post_number": 4,
+        "unread": 0,
+        "new_posts": 0,
+        "unread_posts": 0,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "notification_level": 1,
+        "bookmarked": false,
+        "liked": false,
+        "tags": [
+          "sonarqube",
+          "java"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 299,
+        "like_count": 1,
+        "has_summary": false,
+        "last_poster_username": "Michael",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 28,
+          "username": "alban.auzeill",
+          "name": "Alban Auzeill",
+          "avatar_template": "/user_avatar/community.sonarsource.com/alban.auzeill/{size}/36_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/alban.auzeill/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 23399,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 61,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 31,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 36,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          }
+        ]
+      },
+      {
+        "id": 82880,
+        "title": "Line duplication detection in Kotlin file way too aggressive",
+        "fancy_title": "Line duplication detection in Kotlin file way too aggressive",
+        "slug": "line-duplication-detection-in-kotlin-file-way-too-aggressive",
+        "posts_count": 8,
+        "reply_count": 2,
+        "highest_post_number": 13,
+        "image_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/optimized/3X/d/c/dc0d207d9fb9adab35b9e77e6b35ea445e9ebfad_2_1024x861.png",
+        "created_at": "2023-02-01T08:11:49.049Z",
+        "last_posted_at": "2023-07-06T15:23:20.838Z",
+        "bumped": true,
+        "bumped_at": "2023-07-06T15:23:20.838Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarcloud",
+          "kotlin",
+          "duplications"
+        ],
+        "tags_descriptions": {},
+        "views": 268,
+        "like_count": 2,
+        "has_summary": false,
+        "last_poster_username": "Leonardo_Pilastri",
+        "category_id": 9,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30365,
+          "username": "Leonardo_Pilastri",
+          "name": "Leonardo Pilastri",
+          "avatar_template": "/user_avatar/community.sonarsource.com/leonardo_pilastri/{size}/38853_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Leonardo_Pilastri/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 32512,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 30365,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 94373,
+        "title": "SonarScanner: must we use JDK17 for analyzing JDK17 code?",
+        "fancy_title": "SonarScanner: must we use JDK17 for analyzing JDK17 code?",
+        "slug": "sonarscanner-must-we-use-jdk17-for-analyzing-jdk17-code",
+        "posts_count": 3,
+        "reply_count": 1,
+        "highest_post_number": 5,
+        "image_url": null,
+        "created_at": "2023-06-21T08:12:43.313Z",
+        "last_posted_at": "2023-07-04T08:44:46.172Z",
+        "bumped": true,
+        "bumped_at": "2023-07-04T08:44:46.172Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "scanner",
+          "jdk"
+        ],
+        "tags_descriptions": {},
+        "views": 96,
+        "like_count": 2,
+        "has_summary": false,
+        "last_poster_username": "Colin",
+        "category_id": 9,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 32320,
+          "username": "Marco_Kaufmann",
+          "name": "Marco Kaufmann",
+          "avatar_template": "/user_avatar/community.sonarsource.com/marco_kaufmann/{size}/41281_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Marco_Kaufmann/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 8084,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 71239,
+        "title": "java:S2755: XML parsers should not be vulnerable to XXE attacks",
+        "fancy_title": "java:S2755: XML parsers should not be vulnerable to XXE attacks",
+        "slug": "java-xml-parsers-should-not-be-vulnerable-to-xxe-attacks",
+        "posts_count": 2,
+        "reply_count": 0,
+        "highest_post_number": 4,
+        "image_url": null,
+        "created_at": "2022-09-09T20:44:35.037Z",
+        "last_posted_at": "2023-06-20T21:25:59.157Z",
+        "bumped": true,
+        "bumped_at": "2023-06-20T21:25:59.157Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "unicode_title": "java:S2755: XML parsers should not be vulnerable to XXE attacks",
+        "tags": [
+          "java",
+          "gradle",
+          "xml"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 617,
+        "like_count": 1,
+        "has_summary": false,
+        "last_poster_username": "anemonetea",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 15048,
+          "username": "Dorian_Burihabwa",
+          "name": "Dorian Burihabwa",
+          "avatar_template": "/user_avatar/community.sonarsource.com/dorian_burihabwa/{size}/18750_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Dorian_Burihabwa/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest single",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 29250,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 85802,
+        "title": "kotlin:S1128 Cannot update to the \"fixed\" false positive rule",
+        "fancy_title": "kotlin:S1128 Cannot update to the &ldquo;fixed&rdquo; false positive rule",
+        "slug": "kotlin-s1128-cannot-update-to-the-fixed-false-positive-rule",
+        "posts_count": 3,
+        "reply_count": 0,
+        "highest_post_number": 6,
+        "image_url": null,
+        "created_at": "2023-03-14T04:39:29.112Z",
+        "last_posted_at": "2023-03-15T07:59:50.201Z",
+        "bumped": true,
+        "bumped_at": "2023-03-15T07:59:50.201Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarlint",
+          "intellij",
+          "kotlin"
+        ],
+        "tags_descriptions": {},
+        "views": 217,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "daniel11",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 32320,
+          "username": "Marco_Kaufmann",
+          "name": "Marco Kaufmann",
+          "avatar_template": "/user_avatar/community.sonarsource.com/marco_kaufmann/{size}/41281_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Marco_Kaufmann/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 27744,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 84349,
+        "title": "How to detect java class level variable in Sonar cloud",
+        "fancy_title": "How to detect java class level variable in Sonar cloud",
+        "slug": "how-to-detect-java-class-level-variable-in-sonar-cloud",
+        "posts_count": 3,
+        "reply_count": 0,
+        "highest_post_number": 5,
+        "image_url": null,
+        "created_at": "2023-02-20T04:07:12.930Z",
+        "last_posted_at": "2023-02-28T01:50:43.967Z",
+        "bumped": true,
+        "bumped_at": "2023-02-28T01:50:43.967Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarcloud",
+          "java"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 191,
+        "like_count": 1,
+        "has_summary": false,
+        "last_poster_username": "BansalGaurav",
+        "category_id": 9,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 15048,
+          "username": "Dorian_Burihabwa",
+          "name": "Dorian Burihabwa",
+          "avatar_template": "/user_avatar/community.sonarsource.com/dorian_burihabwa/{size}/18750_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Dorian_Burihabwa/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 31036,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 15048,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          }
+        ]
+      },
+      {
+        "id": 84357,
+        "title": "Why the built jar of sonar-xml plugin contains javax.xml.* packages?",
+        "fancy_title": "Why the built jar of sonar-xml plugin contains javax.xml.* packages?",
+        "slug": "why-the-built-jar-of-sonar-xml-plugin-contains-javax-xml-packages",
+        "posts_count": 1,
+        "reply_count": 0,
+        "highest_post_number": 7,
+        "image_url": null,
+        "created_at": "2023-02-20T08:58:29.746Z",
+        "last_posted_at": "2023-02-20T08:58:29.824Z",
+        "bumped": true,
+        "bumped_at": "2023-02-20T13:12:37.651Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "xml"
+        ],
+        "tags_descriptions": {},
+        "views": 167,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "sify21",
+        "category_id": 15,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 30365,
+          "username": "Leonardo_Pilastri",
+          "name": "Leonardo Pilastri",
+          "avatar_template": "/user_avatar/community.sonarsource.com/leonardo_pilastri/{size}/38853_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Leonardo_Pilastri/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest single",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 33029,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 84043,
+        "title": "On linux arm64 scan golang go parser failure",
+        "fancy_title": "On linux arm64 scan golang go parser failure",
+        "slug": "on-linux-arm64-scan-golang-go-parser-failure",
+        "posts_count": 5,
+        "reply_count": 3,
+        "highest_post_number": 10,
+        "image_url": null,
+        "created_at": "2023-02-15T07:55:22.065Z",
+        "last_posted_at": "2023-02-18T09:25:55.193Z",
+        "bumped": true,
+        "bumped_at": "2023-02-18T09:25:55.193Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarqube"
+        ],
+        "tags_descriptions": {},
+        "views": 126,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "Colin",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 32320,
+          "username": "Marco_Kaufmann",
+          "name": "Marco Kaufmann",
+          "avatar_template": "/user_avatar/community.sonarsource.com/marco_kaufmann/{size}/41281_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Marco_Kaufmann/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 32899,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 78429,
+        "title": "Golang coverage monorepo doesn't work",
+        "fancy_title": "Golang coverage monorepo doesn&rsquo;t work",
+        "slug": "golang-coverage-monorepo-doesnt-work",
+        "posts_count": 5,
+        "reply_count": 1,
+        "highest_post_number": 7,
+        "image_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/optimized/3X/b/7/b706027cf8aecdff7872b763a75dc2ddeba14b24_2_1024x683.png",
+        "created_at": "2022-12-05T22:04:35.648Z",
+        "last_posted_at": "2022-12-13T13:34:53.423Z",
+        "bumped": true,
+        "bumped_at": "2022-12-13T13:34:53.423Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "coverage"
+        ],
+        "tags_descriptions": {},
+        "views": 292,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "rodrigorodriguescost",
+        "category_id": 9,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 28,
+          "username": "alban.auzeill",
+          "name": "Alban Auzeill",
+          "avatar_template": "/user_avatar/community.sonarsource.com/alban.auzeill/{size}/36_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/alban.auzeill/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 31025,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          }
+        ]
+      },
+      {
+        "id": 74522,
+        "title": "Test coverage report from scoverage-maven-plugin not publishing to SonarQube",
+        "fancy_title": "Test coverage report from scoverage-maven-plugin not publishing to SonarQube",
+        "slug": "test-coverage-report-from-scoverage-maven-plugin-not-publishing-to-sonarqube",
+        "posts_count": 8,
+        "reply_count": 3,
+        "highest_post_number": 15,
+        "image_url": null,
+        "created_at": "2022-10-14T10:29:13.649Z",
+        "last_posted_at": "2022-11-09T10:22:51.776Z",
+        "bumped": true,
+        "bumped_at": "2022-11-09T10:22:51.776Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarqube",
+          "coverage",
+          "azuredevops",
+          "scala"
+        ],
+        "tags_descriptions": {},
+        "views": 590,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "Schuits",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 15048,
+          "username": "Dorian_Burihabwa",
+          "name": "Dorian Burihabwa",
+          "avatar_template": "/user_avatar/community.sonarsource.com/dorian_burihabwa/{size}/18750_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Dorian_Burihabwa/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 29976,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 74,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 15048,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          }
+        ]
+      },
+      {
+        "id": 58577,
+        "title": "Comment percentage ratio of Kotlin source code is wrong",
+        "fancy_title": "Comment percentage ratio of Kotlin source code is wrong",
+        "slug": "comment-percentage-ratio-of-kotlin-source-code-is-wrong",
+        "posts_count": 9,
+        "reply_count": 5,
+        "highest_post_number": 11,
+        "image_url": null,
+        "created_at": "2022-02-18T07:15:54.521Z",
+        "last_posted_at": "2022-10-27T09:42:15.524Z",
+        "bumped": true,
+        "bumped_at": "2022-10-27T09:42:15.524Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "kotlin",
+          "comments"
+        ],
+        "tags_descriptions": {},
+        "views": 765,
+        "like_count": 2,
+        "has_summary": false,
+        "last_poster_username": "Benjamin_Bauduin",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 28,
+          "username": "alban.auzeill",
+          "name": "Alban Auzeill",
+          "avatar_template": "/user_avatar/community.sonarsource.com/alban.auzeill/{size}/36_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/alban.auzeill/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 24750,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 31,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 36,
+            "primary_group_id": 41,
+            "flair_group_id": 45
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 25451,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 74692,
+        "title": "The same severity issues from golangci-linter should be the same RuleType",
+        "fancy_title": "The same severity issues from golangci-linter should be the same RuleType",
+        "slug": "the-same-severity-issues-from-golangci-linter-should-be-the-same-ruletype",
+        "posts_count": 3,
+        "reply_count": 0,
+        "highest_post_number": 5,
+        "image_url": "https://europe1.discourse-cdn.com/sonarsource/uploads/sonarcommunity/optimized/3X/f/8/f84df7bd6e4029d33381b629a54cd367c3e409e8_2_446x1023.png",
+        "created_at": "2022-10-18T10:48:02.717Z",
+        "last_posted_at": "2022-10-19T06:15:06.491Z",
+        "bumped": true,
+        "bumped_at": "2022-10-19T06:15:06.491Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "go"
+        ],
+        "tags_descriptions": {},
+        "views": 366,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "Wenyan_Ji",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 28,
+          "username": "alban.auzeill",
+          "name": "Alban Auzeill",
+          "avatar_template": "/user_avatar/community.sonarsource.com/alban.auzeill/{size}/36_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/alban.auzeill/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest single",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 30049,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 35540,
+        "title": "New checkstyle rules doesn't show on Sonar issues list",
+        "fancy_title": "New checkstyle rules doesn&rsquo;t show on Sonar issues list",
+        "slug": "new-checkstyle-rules-doesnt-show-on-sonar-issues-list",
+        "posts_count": 4,
+        "reply_count": 1,
+        "highest_post_number": 9,
+        "image_url": null,
+        "created_at": "2020-12-08T06:43:19.601Z",
+        "last_posted_at": "2022-08-03T12:21:47.491Z",
+        "bumped": true,
+        "bumped_at": "2022-08-03T12:21:47.491Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "sonarqube",
+          "java"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 674,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "lrozenblyum",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 15048,
+          "username": "Dorian_Burihabwa",
+          "name": "Dorian Burihabwa",
+          "avatar_template": "/user_avatar/community.sonarsource.com/dorian_burihabwa/{size}/18750_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/Dorian_Burihabwa/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": null,
+            "description": "Original Poster",
+            "user_id": 14883,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 1362,
+            "primary_group_id": 41,
+            "flair_group_id": 41
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 8084,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "id": 64663,
+        "title": "Enabling report aggregate in all modules in maven multimodule project",
+        "fancy_title": "Enabling report aggregate in all modules in maven multimodule project",
+        "slug": "enabling-report-aggregate-in-all-modules-in-maven-multimodule-project",
+        "posts_count": 1,
+        "reply_count": 0,
+        "highest_post_number": 4,
+        "image_url": null,
+        "created_at": "2022-06-11T13:50:36.219Z",
+        "last_posted_at": "2022-06-11T13:50:36.303Z",
+        "bumped": true,
+        "bumped_at": "2022-06-11T13:50:36.303Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          "java",
+          "coverage"
+        ],
+        "tags_descriptions": {
+          "java": "Topics about analysis of the Java language. For topics about which _version_ of Java to analyze or run the server with, please use `jdk`"
+        },
+        "views": 1306,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "Tuk",
+        "category_id": 10,
+        "pinned_globally": false,
+        "featured_link": null,
+        "assigned_to_user": {
+          "id": 28,
+          "username": "alban.auzeill",
+          "name": "Alban Auzeill",
+          "avatar_template": "/user_avatar/community.sonarsource.com/alban.auzeill/{size}/36_2.png",
+          "assign_icon": "user-plus",
+          "assign_path": "/u/alban.auzeill/activity/assigned"
+        },
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest single",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 27261,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      }
+    ]
+  }
+}
