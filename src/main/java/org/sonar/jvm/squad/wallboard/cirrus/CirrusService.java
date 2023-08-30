@@ -23,7 +23,7 @@ public class CirrusService {
 
   public final RestTemplate rest;
 
-  private final CirrusConfig.Credentials credentials;
+  public final CirrusConfig.Credentials credentials;
 
   public CirrusService(RestTemplate rest, CirrusConfig.Credentials credentials) {
     this.rest = rest;

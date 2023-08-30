@@ -1,0 +1,26 @@
+{
+  "data": {
+    "ownerRepository": {
+      "id": "1234",
+      "owner": "sonar",
+      "name": "my_repo",
+      "builds": {
+        "edges": [
+          {
+            "node": {
+              "id": "4321",
+              "changeMessageTitle": "change title",
+              "durationInSeconds": 3456,
+              "status": "COMPLETED",
+              "branch": "main",
+              "notifications": [
+              ],
+              "tasks": [
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
