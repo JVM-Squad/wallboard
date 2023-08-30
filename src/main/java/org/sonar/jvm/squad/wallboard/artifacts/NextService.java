@@ -18,10 +18,9 @@ public class NextService {
   public static final String PLUGINS_INSTALLED_ENDPOINT = HOST + "/api/plugins/installed";
 
   private static final Map<String, String> ANALYZER_TO_PLUGIN_KEY = Map.of(
-    "sonar-java", "java"
-  );
+    "sonar-java", "java");
   public final RestTemplate rest;
-  private String sonarQubeToken;
+  private final String sonarQubeToken;
 
   NextService(RestTemplate rest, String sonarQubeToken) {
     this.rest = rest;
@@ -42,8 +41,7 @@ public class NextService {
       PLUGINS_INSTALLED_ENDPOINT,
       HttpMethod.GET,
       requestEntity,
-      Map.class
-    );
+      Map.class);
     Map<String, Object> body = response.getBody();
     if (body == null) {
       return "N/A";

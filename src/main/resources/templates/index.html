@@ -20,7 +20,7 @@
 <div class="container mt-4">
     <div class="row" th:each="widgetColsUrls : ${widgetRowsAndColsUrls}">
         <div class="col-md-12 col-lg-6" th:each="widgetUrl : ${widgetColsUrls}">
-            <iframe th:src="@{${widgetUrl}}" class="wallboard-widget w-100"
+            <iframe title="JVM Squad Wallboard" th:src="@{${widgetUrl}}" class="wallboard-widget w-100"
                     height="400" onload="this.style.visibility = 'visible';"></iframe>
         </div>
     </div>
