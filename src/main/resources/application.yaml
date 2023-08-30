@@ -10,13 +10,13 @@ spring:
       cache:
         period: 0
 
-squad.community.group: JVM_Squad
-
-squad.useful.links: https://xtranet-sonarsource.atlassian.net/wiki/spaces/LANG/pages/703234122/JVM+Squad|JVM Squad Xtranet,
-  https://sonarsource.atlassian.net/jira/software/c/projects/SONARJAVA/boards/363|JVM Squad Board,
-  https://next.sonarqube.com/sonarqube/dashboard?id=org.sonarsource.java%3Ajava|SonarQube Java,
-  https://next.sonarqube.com/sonarqube/dashboard?id=org.sonarsource.kotlin%3Akotlin|SonarQube Kotlin,
-  https://github.com/SonarSource/sonar-java|GitHub sonar-java,
-  https://trello.com/b/SzeEntF5/jvm-squad-planning|JVM Squad Planning,
-  https://community.sonarsource.com/g/JVM_Squad/assigned/JVM_Squad|Community,
-  https://discuss.sonarsource.com/search?q=tags%3Ajava%2Ckotlin%2Cxml%2Cgo%2Cruby%2Cscala%2Capex%2Cjacoco%20%23dogfood%3Ala%20order%3Alatest|Dogfood
+squad:
+  community.group: JVM_Squad
+  useful.links: https://xtranet-sonarsource.atlassian.net/wiki/spaces/LANG/pages/703234122/JVM+Squad|JVM Squad Xtranet,
+    https://sonarsource.atlassian.net/jira/software/c/projects/SONARJAVA/boards/363|JVM Squad Board,
+    https://next.sonarqube.com/sonarqube/dashboard?id=org.sonarsource.java%3Ajava|SonarQube Java,
+    https://next.sonarqube.com/sonarqube/dashboard?id=org.sonarsource.kotlin%3Akotlin|SonarQube Kotlin,
+    https://github.com/SonarSource/sonar-java|GitHub sonar-java,
+    https://trello.com/b/SzeEntF5/jvm-squad-planning|JVM Squad Planning,
+    https://community.sonarsource.com/g/JVM_Squad/assigned/JVM_Squad|Community,
+    https://discuss.sonarsource.com/search?q=tags%3Ajava%2Ckotlin%2Cxml%2Cgo%2Cruby%2Cscala%2Capex%2Cjacoco%20%23dogfood%3Ala%20order%3Alatest|Dogfood

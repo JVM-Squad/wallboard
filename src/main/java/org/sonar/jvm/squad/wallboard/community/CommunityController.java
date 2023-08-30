@@ -1,11 +1,13 @@
 package org.sonar.jvm.squad.wallboard.community;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
+@Lazy
 public class CommunityController {
   @Value("${squad.community.group}")
   String communityGroup;
