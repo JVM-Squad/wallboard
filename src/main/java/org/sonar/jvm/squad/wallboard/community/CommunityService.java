@@ -43,9 +43,10 @@ public class CommunityService {
     return new CommunityData.Topic(id, title, assignTo);
   }
 
-  public CommunityData.AssignedGroupTopics jvmSquadMembers(){
+  public CommunityData.AssignedGroupTopics assignedTopics(String group){
+
     ResponseEntity<String> response = rest.exchange(
-      "https://community.sonarsource.com/topics/group-topics-assigned/JVM_Squad.json",
+      "https://community.sonarsource.com/topics/group-topics-assigned/"+group+".json",
       HttpMethod.GET,
       headersForGET(Map.of("cookie", "_t="+credentials.discourseToken())),
       String.class);

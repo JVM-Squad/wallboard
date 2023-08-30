@@ -21,7 +21,7 @@ import static org.springframework.test.web.client.match.MockRestRequestMatchers.
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 
 @SpringBootTest(classes = {CommunityserviceTest.TestCommunityConfig.class, CommunityService.class, RestConfig.class, ObjectMapper.class})
-public class CommunityserviceTest {
+class CommunityserviceTest {
 
   @Configuration
   static class TestCommunityConfig {
@@ -59,7 +59,7 @@ public class CommunityserviceTest {
       .andExpect(header("cookie", "_t=2c255cad1bea5744ce44aac20b29dae3c6e6801a206cb726ebb4"))
       .andRespond(jsonResponse(loader, "community/assigned-topics-response.json"));
 
-    CommunityService.CommunityData.AssignedGroupTopics topics = communityService.jvmSquadMembers();
+    CommunityService.CommunityData.AssignedGroupTopics topics = communityService.assignedTopics("JVM_Squad");
 
     server.verify();
 
