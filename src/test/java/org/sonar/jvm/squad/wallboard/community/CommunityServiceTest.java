@@ -20,8 +20,8 @@ import static org.springframework.test.web.client.match.MockRestRequestMatchers.
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 
-@SpringBootTest(classes = {CommunityserviceTest.TestCommunityConfig.class, CommunityService.class, RestConfig.class, ObjectMapper.class})
-class CommunityserviceTest {
+@SpringBootTest(classes = {CommunityServiceTest.TestCommunityConfig.class, CommunityService.class, RestConfig.class, ObjectMapper.class})
+class CommunityServiceTest {
 
   @Configuration
   static class TestCommunityConfig {
